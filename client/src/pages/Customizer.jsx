@@ -36,7 +36,7 @@ const Customizer = () => {
           readFile={readFile}
         />
       case "aipicker":
-        return <AIPicker 
+        return <AiPicker 
           prompt={prompt}
           setPrompt={setPrompt}
           generatingImg={generatingImg}
