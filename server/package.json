@@ -5,8 +5,14 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1"
     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fevasni/Threejs_Logo_design_mearch.git"
   },
   "keywords": [],
   "author": "",
@@ -19,5 +25,7 @@
     "mongoose": "^7.4.3",
     "nodemon": "^3.0.1",
     "openai": "^3.3.0"
-  }
+  },"bugs": {
+    "url": "https://github.com/fevasni/Threejs_Logo_design_mearch/issues"
+    }
 }
