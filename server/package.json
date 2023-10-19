@@ -1,31 +1,31 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "type": "module",
-  "scripts": {
-    "start": "node app.js",
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1"
-    
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fevasni/Threejs_Logo_design_mearch.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cloudinary": "^1.40.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "mongoose": "^7.4.3",
-    "nodemon": "^3.0.1",
-    "openai": "^3.3.0"
-  },"bugs": {
-    "url": "https://github.com/fevasni/Threejs_Logo_design_mearch/issues"
-    }
+"name": "3D T-shirt Design app",
+"version": "1.0.0",
+"description": "Description of your project",
+"main": "app.js",
+"type": "module",
+"scripts": {
+  "start": "node app.js",
+  "build": "echo \"No build specified\" && exit 1",
+  "test": "echo \"No test specified\" && exit 1"
+},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/fevasni/Threejs_Logo_design_mearch.git"
+},
+"keywords": [],
+"author": "Your Name",
+"license": "ISC",
+"dependencies": {
+  "cloudinary": "^1.40.0",
+  "cors": "^2.8.5",
+  "dotenv": "^16.3.1",
+  "express": "^4.18.2",
+  "mongoose": "^7.4.3",
+  "nodemon": "^3.0.1",
+  "openai": "^3.3.0"
+},
+"bugs": {
+  "url": "https://github.com/fevasni/Threejs_Logo_design_mearch/issues"
+}
 }
